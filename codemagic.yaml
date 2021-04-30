@@ -69,8 +69,8 @@ workflows:
                 # See the following link for more details - https://docs.codemagic.io/code-signing-yaml/signing-ios/
                 XCODE_WORKSPACE: "ReactNativeTest.xcworkspace" # <-- Put the name of your Xcode workspace here
                 XCODE_SCHEME: "ReactNativeTest" # <-- Put the name of your Xcode scheme here
-                APPLE_ID: Encrypted(Z0FBQUFBQmdpOGs2T1ZxYm9LMVRxVlhFeWZkN2JzajZLZkFaNm9IbTAzOHljMHM5YVBzRjdWVDU1LTlheUs4UEROeHA0dTFPN2t0b1VFWVZVdS1uUkdZbzVnYXl0WGtNbm5peHBDSmJsYkQxWjhzWnVzYk5yODg9) # <-- Put you encrypted Apple ID here
-                APP_SPECIFIC_PASSWORD: Encrypted(Z0FBQUFBQmdpOHBrYUVIaXlvSGtNMkZQRDZmbzFSQ3dtdVc3d3Qwc1RZQVhSdGFpa1lycDZFbVFBRDJwaEN0MHhwZzNEc25TQU9RM3ZhTUNENTlEZ0JRR2FuR3Y3NnpMdUVqQkNNbnktd3RvZWdEVXE2ejh4YlU9) # <-- Put your encrypted App Specific Password here. For more information visit: https://support.apple.com/en-us/HT204397
+                APPLE_ID: Encrypted(Z0FBQUFBQmdqQ1dWZGwtSk45VHRhOXhKSDJyWkVrUmVwY216eEtuVVdldlZUaWppc0ZWUHVJdzlsdEF1Q2h3UlRWOU9qUXFzcDdvRjk4WTlJUkVoX1huRnpwaHNCRlI4VmVzZ0xfV2dSX2J0WkFfYXNLNE5BS1E9) # <-- Put you encrypted Apple ID here
+                APP_SPECIFIC_PASSWORD: Encrypted(Z0FBQUFBQmdqQ1pORUppa1VyOXl5ZXRwSUlJbXh3TGp3X2xrTWQ3LUFDSnJNWkNLX1hWZTNvRnZEMVNjWG5wZFBJQWc2UU9EZWdSRUxKU09qRkdaTmd1eU9SSXl3dVhIeDlqcFpEUkhGWkpmWk05T3BjOXd4MWs9) # <-- Put your encrypted App Specific Password here. For more information visit: https://support.apple.com/en-us/HT204397
                 # https://appstoreconnect.apple.com/access/api
                 APP_STORE_CONNECT_ISSUER_ID: Encrypted(Z0FBQUFBQmdqQ0w3NUhWemVfcksySXYxdTctTWx1SzhGdUh1LW01ajNWTkdXU3RPbDlCbjlqcXNISDd5NXFsTlhITEJhN0hqdUMxNjBEU3Nma2xNWXU2WlhhSnQyV0JMX2FfN0JxV2VmaDF2ekNmei1vNzNJS2VNMzJFMERQVDRsZzNyTy1hZ3FSOTQ=) # <-- Put your App Store Connect Issuer Id here
                 APP_STORE_CONNECT_KEY_IDENTIFIER: Encrypted(Z0FBQUFBQmdqQ0xBYnphc1BPRTAzVlhWdGRrTHRmNHhZZHRsU3dEUnJ6QjZWUEY1a0R6QW9LRkdzSE9sbVE5aEVRSzRnSzloQ291R0FlTEU1QnFxX2lMUHVSOEdocV9Tbnc9PQ==) # <-- Put your App Store Connect Key Identifier here
